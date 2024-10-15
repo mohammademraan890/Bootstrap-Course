@@ -1,0 +1,841 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* -----------Univarsal Styling-------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+body {
+
+    overflow-x: hidden !important;
+
+}
+
+.sec-space {
+    padding-top: 6rem !important;
+}
+
+.obj-width {
+    max-width: 1000px !important;
+    margin: auto;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+h3 {
+    text-transform: uppercase;
+
+}
+
+h2 {
+    text-transform: uppercase;
+    /* margin-top: 30px; */
+
+}
+
+button {
+    padding: 10px 25px;
+    background-color: orange;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.sidebar {
+    display: none;
+}
+
+/* -----------Hero-Section-------------- */
+#heroSection {
+    min-height: 100vh;
+    background-image: url(https://media.onthemarket.com/properties/10094097/1340634478/image-0-1024x1024.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(1.1);
+    overflow-x: hidden;
+    position: relative;
+    z-index: 0;
+    top: -0px;
+    left: 0px;
+    right: 0px;
+}
+
+/* --------Navbar---- */
+.navbarr {
+    /* height: 0px; */
+    height: 60px;
+    background-color: transparent;
+    overflow: hidden;
+    padding-top: 10px;
+    width: 100vw;
+
+    position: relative;
+    z-index: 1;
+}
+
+.nav-cont {
+
+    height: 500px;
+    position: absolute;
+    width: 100vw;
+
+    overflow: hidden;
+
+}
+
+.navbarr .nav-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.navbarr #logo {
+    text-transform: uppercase;
+    /* margin-top: 0px !important; */
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.navbarr #menu-sec {
+    display: flex;
+
+}
+
+.navbarr #menu-sec li {
+    padding-left: 2rem;
+    text-transform: uppercase;
+}
+
+.navbarr #login-sec {
+    display: flex;
+    margin-left: 7rem;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.navbarr #login-sec li:nth-child(2) {
+    padding-left: 2rem;
+}
+
+.navbarr #login-sec li:nth-child(1) {
+    font-size: 20px;
+    padding-top: 6px;
+}
+
+#menu-btn {
+    font-size: 20px;
+    padding-top: 4px;
+    /* margin-left: 2rem; */
+    display: none;
+}
+
+#side-sec {
+    display: none;
+}
+
+/* ----Slider----- */
+
+.h-slider-inner {
+    display: flex;
+    justify-content: center !important;
+
+}
+
+.h-item {
+    width: 100%;
+    display: flex;
+    /* padding: 2rem 0px; */
+    flex-direction: column;
+    align-items: center;
+    padding: 6rem 0px 2rem 0px;
+    min-height: 100vh;
+    /* margin-top: 30px; */
+    justify-content: space-between;
+
+
+}
+
+.h-slider-item {
+    width: 500px;
+    text-align: center;
+
+}
+
+.h-head {
+    font-size: 70px;
+    font-weight: 400;
+}
+
+.h-button {
+    margin-bottom: 20px;
+}
+
+.h-slider .owl-nav .owl-next,
+.h-slider .owl-nav .owl-prev {
+    position: absolute;
+    top: 50%;
+    font-size: 20px !important;
+    opacity: 1;
+    z-index: 1;
+    color: white !important;
+    background-color: black !important;
+    border-radius: 50% !important;
+}
+
+.h-slider .owl-carousel .owl-nav button.owl-next,
+.h-slider .owl-carousel .owl-nav button.owl-prev,
+.h-slider .owl-carousel button.owl-dot {
+
+    /* padding: 12px 16px 10px 16px !important; */
+    line-height: 0;
+    padding: 15px !important;
+}
+
+.h-slider .owl-nav .owl-prev {
+
+    left: -100px;
+}
+
+.h-slider .owl-nav .owl-next {
+
+    right: -100px;
+}
+
+/* ----------Services Section------------*/
+.services-sec {
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+.services-sec h2 {
+    margin-bottom: 20px;
+}
+
+.services {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+
+.serv .service-img {
+    margin-bottom: 30px;
+
+}
+
+.serv .service-img img {
+    height: 80px;
+    width: 80px;
+}
+
+/* .serv h3,
+.serv p,
+.serv button {
+    margin-bottom: 30px;
+} */
+
+/* ----------About Us Section------------- */
+.aboutUs-sec {
+    background-color: orange;
+    padding: 4rem 0;
+
+}
+
+.about-inner {
+    color: white;
+}
+
+/* .about-cont{
+    width: 50%;
+} */
+/* .about-img{
+    width: 50%;
+} */
+.about-cont p {
+    margin: 60px 0px;
+}
+
+.about-cont button {
+    background-color: black;
+}
+
+/* .about-img{
+    width: 50%;
+} */
+.about-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* ------------Projects Section----------- */
+.project-sec {
+    margin-top: 5rem;
+}
+
+.project-slider {
+    margin-top: 70px;
+}
+
+.project-slider .project-img {
+    position: relative;
+    height: 300px;
+    /* Set a fixed height that works for your design */
+    overflow: hidden;
+    /* Hide overflow to maintain the aspect ratio */
+}
+
+.project-slider .project-img img {
+    width: 100%;
+    /* Make image full width of the container */
+    height: 100%;
+    /* Make image full height of the container */
+    object-fit: cover;
+    /* Cover the container without distorting the image */
+}
+
+.project-slider .project-img p {
+    position: absolute;
+    bottom: -5px;
+    color: white;
+    left: 50%;
+    /* Position 50% from the left */
+    transform: translate(-50%, 0%);
+    width: 100%;
+}
+
+#p-slider .owl-nav .owl-next,
+#p-slider .owl-nav .owl-prev {
+    position: absolute;
+    font-size: 20px !important;
+    top: 45%;
+    opacity: 1;
+    z-index: 1;
+    color: white !important;
+    background-color: black !important;
+    /* border-radius: 50% !important; */
+    line-height: 0;
+    padding: 10px !important;
+}
+
+
+
+#p-slider .owl-nav .owl-prev {
+
+    left: -60px;
+}
+
+#p-slider .owl-nav .owl-next {
+
+    right: -70px;
+}
+
+
+/* ---------------Cleint Image--------------- */
+.client-sec {
+    margin-top: 5rem;
+}
+
+.c-slider {
+    margin-top: 30px;
+}
+
+.c-item {
+    position: relative;
+    height: 320px;
+}
+
+.c-box {
+    display: flex;
+    text-align: justify;
+    border: 2px solid black;
+    width: 60%;
+    margin: 30px 0px;
+    padding: 15px 10px 0px 10px;
+    position: relative;
+    /* height: 100px; */
+}
+
+.c-item .c-item-2 {
+    margin-left: auto;
+}
+
+.c-img {
+    width: 200px;
+    margin-right: 20px;
+    height: 60px;
+}
+
+.c-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0px -20px;
+    /* object-position: 20px; */
+}
+
+.owl-dots {
+    position: absolute;
+    top: 210px;
+    left: 0px;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    width: 15px;
+    height: 15px;
+    background-color: orange;
+    margin: 5px 3px;
+}
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot {
+    padding: 0px !important;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background-color: black;
+}
+
+/* ------Contact-US Section--------- */
+.contact-sec {
+    background:
+        linear-gradient(rgba(255, 153, 0, 0.835), rgba(255, 153, 0, 0.835)),
+        url(https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?cs=srgb&dl=furniture-indoors-interior-1643383.jpg&fm=jpg) no-repeat center center;
+    background-size: cover;
+    /* Ensures the background image covers the entire section */
+    color: white;
+    background-attachment: fixed;
+    padding: 5rem 0 !important;
+    margin-top: 3rem;
+}
+
+.contact-cont p {
+    /* display: none; */
+    margin: 0px;
+    padding: 0px;
+    color: rgb(0, 0, 0);
+}
+
+.contact-cont input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 12px 15px;
+    margin: 10px 0px;
+    border-radius: 3px;
+}
+
+.contact-cont textarea {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+    height: 150px !important;
+    margin: 10px 0px;
+}
+
+.contact-cont textarea::placeholder {
+    line-height: 8;
+}
+
+
+
+#cont-form {
+    margin-top: 40px;
+}
+
+#contact-btn {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 0px;
+    padding: 0px;
+    line-height: normal;
+    width: 140px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    color: gray;
+    margin-top: 35px;
+}
+
+/* --------Footer-sec---------- */
+.footer-sec {
+    background-color: rgb(44, 44, 44);
+    color: rgb(226, 226, 226);
+    padding-bottom: 100px;
+}
+
+.f-sections {
+    /* width: 25%; */
+    text-align: start;
+    /* padding-right: 50px; */
+}
+
+.f-sections h5 {
+    text-transform: uppercase;
+    margin: 30px 0px;
+
+}
+
+.third-sec ul {
+    padding-left: 0px !important;
+}
+
+.third-sec ul li a {
+    color: rgb(226, 226, 226);
+}
+
+.F-bottom-inp {
+    width: 100%;
+}
+
+.footer-inp {
+    width: 350px;
+    position: relative;
+    margin-left: auto;
+}
+
+.footer-inp input {
+    border: none;
+    background-color: transparent;
+    padding: 8px 0px;
+}
+
+.footer-inp input:first-child {
+    width: 350px;
+    color: rgb(226, 226, 226);
+    border-bottom: 1px solid white;
+    padding-right: 100px;
+}
+
+.footer-inp input:first-child:focus {
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+}
+
+.footer-inp input:nth-child(2) {
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: absolute;
+    right: 0px;
+}
+
+/* -----Footer-Bottom-------- */
+.footer-bottom {
+    background-color: white;
+    color: black;
+}
+
+.footer-bt-inner {
+    text-align: center;
+}
+
+.footer-bt-inner p {
+    margin: 15px 0px;
+}
+
+.footer-bt-inner p span {
+    color: orange;
+}
+
+/* ---------------------Tablet-Responsiveness-------------------- */
+
+@media screen and (max-width:1200px) {
+    .h-slider .owl-nav .owl-prev {
+
+        left: 0px;
+    }
+
+    .h-slider .owl-nav .owl-next {
+
+        right: 0px;
+    }
+
+    #p-slider .owl-nav .owl-next,
+    #p-slider .owl-nav .owl-prev {
+        position: static;
+    }
+
+}
+
+@media screen and (max-width:1000px) {
+
+    /* ------Universal Responsivness------ */
+    .obj-width {
+        padding: 0rem 1rem;
+    }
+
+    /* -----Navbar------- */
+    .navbarr #login-sec {
+        margin-left: auto;
+    }
+
+
+}
+
+@media screen and (max-width:992px) {
+
+    /* -----Services-section------ */
+    .services-sec {
+        margin-top: 2.5rem;
+        margin-bottom: 2.5rem;
+    }
+
+    #serv-para {
+        margin-bottom: 0px;
+    }
+
+    .serv .service-img {
+        margin-bottom: 20px;
+        margin-top: 50px;
+
+    }
+
+    .services {
+
+        margin-top: 0rem;
+    }
+}
+
+/* ------------------Mobile Responsiveness------------------- */
+/* -----Navbar----- */
+@media screen and (max-width:800px) {
+    #menu-sec {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width:800px) {
+
+    #side-sec {
+        display: flex;
+        flex-direction: column;
+        background-color: orange;
+        color: white;
+        /* transform: translateX(-1000px); */
+        position: absolute;
+        right: -300px;
+        top: 60px;
+        width: 200px;
+        padding: 1rem 0;
+        border-radius: 10px;
+        box-shadow: 2px 2px 18px rgba(255, 166, 0, 0.582);
+        z-index: 100;
+        transition: all 0.3s ease;
+        padding-left: 20px;
+
+    }
+
+    #side-sec.active {
+        right: 10px;
+        /* display: block; */
+    }
+
+    #side-sec li a {
+        color: white;
+    }
+
+    #side-sec li {
+
+        margin: 10px 0px !important;
+    }
+
+    .navbarr #login-sec li:nth-child(2) {
+        padding-left: 1rem;
+    }
+
+    #menu-btn {
+        display: block;
+        padding-left: 1rem;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+
+    /* ----Hero-Slider---- */
+    .h-item {
+        margin-top: 10px;
+    }
+
+    .h-button {
+        margin-top: 0px;
+    }
+
+    .h-slider-item {
+        width: 400px;
+    }
+
+    .h-slider .owl-carousel .owl-nav button.owl-next,
+    .h-slider .owl-carousel .owl-nav button.owl-prev,
+    .h-slider .owl-carousel button.owl-dot {
+
+        padding: 8px !important;
+        line-height: 0;
+        font-size: 10px;
+        margin: 0px !important;
+    }
+
+    /* Client-section */
+
+    .c-box {
+        width: 100%;
+    }
+
+    .c-item .c-item-2 {
+        margin-left: 0px;
+    }
+
+    .owl-dots {
+        position: static;
+        margin-top: 10px !important;
+    }
+
+    /* ------About-Sec----- */
+
+
+
+
+    .aboutUs-sec {
+        padding: 2rem 0px;
+        text-align: center;
+    }
+
+    .about-cont p {
+        margin: 25px 0px;
+    }
+
+    /* ----Contact Section------ */
+    .contact-sec {
+        padding: 2rem 0 !important;
+        text-align: center;
+    }
+
+    #cont-form {
+        margin-top: 20px;
+        text-align: start;
+    }
+
+    .contact-map {
+        margin-left: 0px;
+        height: 250px;
+        margin-top: 15px;
+    }
+
+    #contact-btn {
+        margin: 20px 0px 40px 0px;
+        width: 100%;
+    }
+
+    /* ----Project Section----- */
+    .project-sec {
+        margin-top: 3rem;
+    }
+
+    .project-slider {
+        margin-top: 20px;
+    }
+
+    /* ----Client-Sec----- */
+
+    .client-sec {
+        margin-top: 4rem;
+    }
+
+    .c-item {
+        height: 280px;
+    }
+
+    .c-slider {
+        margin-top: 0px;
+    }
+
+    /* ------Footer----- */
+    .footer-sec {
+        padding-bottom: 50px;
+    }
+
+    .footer-inp {
+        width: 100%;
+    }
+
+    .footer-inp input:first-child {
+        width: 100%;
+    }
+}
+
+/*----Client-Sec-----  */
+@media screen and (max-width:533px) {
+    .c-item {
+        height: 312px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .c-item {
+        height: 360px;
+    }
+}
+
+/* ---Hero-Section----- */
+@media screen and (max-width:450px) {
+    .h-head {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:400px) {
+
+
+    #logo h2 {
+        font-size: 20px;
+    }
+
+    .navbarr li {
+        font-size: 15px !important;
+    }
+
+    .navbarr #login-sec {
+        margin-left: 2rem;
+    }
+
+    /* ----h-slider---- */
+
+
+    .h-slider-item {
+        width: 300px;
+    }
+
+    /* -----Client-section------ */
+
+    .c-item {
+        margin-bottom: 10px;
+    }
+
+    /* -----Footer---- */
+
+}
